@@ -1,0 +1,36 @@
+header #logo-uni {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+body #main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+iframe{
+  max-height: 170px;
+  border-radius: 0px;
+
+}
+.iframe-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.video-details{
+  display: none;
+}
+#main #title-yellow{
+  font-size: 10px;
+  padding: 3px;
+  width: fit-content;
+  /* display: none; */
+}
+#main .iframe-container .live-red-dot{
+  height: 5px;
+  width: 5px;
+}
